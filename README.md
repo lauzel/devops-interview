@@ -1,9 +1,10 @@
 # devops-interview
 
-You will first need to install Node 12. To do so:
+You will first need to install Node 12.
+
+Install the app:
 ```
-wget -qO- https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt install -y nodejs
+npm install
 ```
 
 To start the app, just run from the root folder:
