@@ -73,7 +73,6 @@ So if you still have time:
 - Add a monitoring service in your manifest (like Grafana) and connect it
 - Secure your app with a certificate (you can use LetsEncrypt). A letsencrypt issuer is already deployed, its name is `letsencrypt-prod`
 
-letsencrypt-prod
 # 3. Technical Questions (bonus)
 
 
