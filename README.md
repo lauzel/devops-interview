@@ -64,16 +64,16 @@ We will pay extra attention to:
 
 A Kubernetes cluster is available to deploy your app. You may use the public Docker Hub to publish your image.
 
-## Bonus
+## 2.1 Bonus
 
 Once deployed, we should be able to monitor the application: basic memory/CPU usage, HTTP codes, eventual errors…
 So if you still have time:
 
 - The deployed ingress should only allow whitelisted IP addresses
 - Add a monitoring service in your manifest (like Grafana) and connect it
-- Secure your app with a certificate (you can use LetsEncrypt)
+- Secure your app with a certificate (you can use LetsEncrypt). A letsencrypt issuer is already deployed, its name is `letsencrypt-prod`
 
-
+letsencrypt-prod
 # 3. Technical Questions (bonus)
 
 
