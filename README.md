@@ -31,7 +31,6 @@ Besides the building block of the infrastructure, we’d like to have informatio
 - How would you handle application configuration ?
 - What processes and tools do you plan to use in order to have a proper "Infrastructure As Code" approach
 - Would you recommend a full cloud approach ? Hybrid deployment ?
-- Even though we’re not Netflix, what’s your opinion on chaos engineering ? Would you recommend it and, if so, what should be tested and how ?
 - How would you deploy stateful applications such as databases ? Would you have them within Kubernetes and if so how would you manage them ?
 
 Please provide information for each of the above poins. Once again, please just state how you would achieve these things.
@@ -82,11 +81,7 @@ So if you still have time:
         - Get things running properly again ?
         - Find what has been impacted ?
         - Prevent a re-occurrence of the issue ?
-2. There is a large amount of non-public data stored in a MySQL database located on a virtual machine that needs to be accessed by typical well-maintained and tested APIs as well as by data engineers in “exploratory” mode (they don’t know which data they need until they need it). This VM is mounted on a RAID 4 disk system and the disk space is running low.
-Describe, with diagrams if needed, the systems and checks you would implement to ensure the data can be accessed by all parties in a secure manner. What would you do about the disk space ? 
+2. Even though we’re not Netflix, what’s your opinion on chaos engineering ? Would you recommend it and, if so, what should be tested and how ?
+
 
 Be sure to detail the pros and cons of your answers 
-
-
-
-
