@@ -39,7 +39,7 @@ Please provide information for each of the above poins. Once again, please just 
 
 You will have to deploy a small Node.js app on Kubenetes from scratch.
 
-The application soure code and instuctions to build and run it are available in the README file at https://github.com/oui-team/devops-interview/app.
+The application soure code and instuctions to build and run it are available in the README file at https://github.com/oui-team/devops-interview/tree/master/app.
 
 What you need to produce:
 
